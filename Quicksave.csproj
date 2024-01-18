@@ -8,7 +8,7 @@
 
     <ItemGroup>
       <Reference Include="ModShardLauncher">
-        <HintPath>..\..\..\..\..\..\ModShardLauncher-source\bin\Debug\net6.0-windows\ModShardLauncher.dll</HintPath>
+        <HintPath>..\..\ModShardLauncher.dll</HintPath>
       </Reference>
     </ItemGroup>
 

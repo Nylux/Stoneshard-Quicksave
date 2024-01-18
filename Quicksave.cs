@@ -10,10 +10,10 @@ public class Quicksave : Mod
     public override string Name => "Quicksave";
     public override string Author => "Nylux";
     public override string Description => "Allows the player to quicksave the game by pressing F5.";
-    public override string Version => "1.0.0";
+    public override string Version => "1.1.0";
 
     public override void PatchMod()
     {
-        ModLoader.InsertDecompiledCode("scr_smoothSaveAuto()", "gml_Object_o_player_KeyPress_116", 0);
+        ModLoader.InsertGMLString("scr_smoothSaveAuto()", "gml_Object_o_player_KeyPress_116", 0);
     }
 }
